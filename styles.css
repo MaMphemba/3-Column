@@ -10,8 +10,8 @@ body{
 }
 
 .box1, .box2, .box3{
-    width: 350px;
-    height: 500px;
+    width: 250px;
+    height: 400px;
     color: #fff;
 }
 
@@ -28,8 +28,10 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.box1>h3, .box2>h3, .box3>h3{
+.box1>h1, .box2>h1, .box3>h1{
     font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
     margin-left: 30px;
 }
 
@@ -41,20 +43,22 @@ p{
 
 .box1{
     background-color: #d57a24;
+    width: 500px;
+    height: 400px;
 }
 .box2{
     background-color: #185157;
+    width: 500px;
+    height: 400px;
 }
 .box3{
     background-color: #0e312f;
+    width: 500px;
+    height: 400px;
 }
 
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-
-.btn{
+.btn1{
+    color: #d57a24;
     width: 150px;
     height: 40px;
     border: none;
@@ -65,20 +69,44 @@ p{
     top: 30px;
     cursor: pointer;
     transition: 1s;
+
 }
+.btn2{
+    color: #185157;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    cursor: pointer;
+    transition: 1s;
+    }
 
-.btn1{color: #d57a24;}
-.btn2{color: #185157;}
-.btn3{color: #0e312f;}
+.btn3{
+    color: #0e312f;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #fff;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    cursor: pointer;
+    transition: 1s;
+    }
 
-.btn1:hover{background-color: #d57a24;}
-.btn2:hover{background-color: #185157;}
-.btn3:hover{background-color: #0e312f;}
-
-.btn:hover{
-    border: solid 2px #fff ;
-    color: #fff;
-}
+    .btn1:hover{background-color: #d57a24; color: white;}
+    .btn2:hover{background-color: #185157; color: white;}
+    .btn3:hover{background-color: #0e312f; color: white;}
+    
+    .btn:hover{
+        border: solid 2px #fff;
+        color: #fff;
+    }
 
 /*Media query*/
 
